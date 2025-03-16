@@ -1,4 +1,11 @@
-const name = "yoshi";
+// const name = "yoshi";
 
-console.log(name);
-// Output: mario
+// console.log(name);
+// // Output: mario
+
+const greet = (name) => {
+  console.log(`hello, ${name}`);
+};
+
+greet("mario");
+greet("yoshi");
