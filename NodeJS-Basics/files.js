@@ -15,13 +15,13 @@ const fs = require("fs");
 //after prints reading file
 
 //writing files
-// fs.writeFile("./docs/blog1.txt", "hello, world", () => {
-//   console.log("file written");
-// });
+fs.writeFile("./docs/blog1.txt", "hello, world aced", () => {
+  console.log("file written ace");
+});
 
-// fs.writeFile("./docs/blog2.txt", "hello, again", () => {
-//   console.log("file written");
-// });
+fs.writeFile("./docs/blog2.txt", "hello, again, ace", () => {
+  console.log("file written ace2");
+});
 
 //directories
 // if (!fs.existsSync("./assets")) {
@@ -40,10 +40,10 @@ const fs = require("fs");
 //   });
 // }
 
-//delete files
-fs.unlink("./docs/deleteme.txt", (err) => {
-  if (err) {
-    console.log(err);
-  }
-  console.log("files deleted");
-});
+// //delete files
+// fs.unlink("./docs/deleteme.txt", (err) => {
+//   if (err) {
+//     console.log(err);
+//   }
+//   console.log("files deleted");
+// });
